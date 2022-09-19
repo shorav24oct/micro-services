@@ -2,24 +2,24 @@ package com.ratings.data.model;
 
 public class Rating {
 
-	private int ratings;
+	private int rating;
 	private String movieId;
 
 	public Rating() {
 
 	}
 
-	public Rating(int ratings, String movieId) {
-		this.ratings = ratings;
+	public Rating(int rating, String movieId) {
+		this.rating = rating;
 		this.movieId = movieId;
 	}
 
-	public int getRatings() {
-		return ratings;
+	public int getRating() {
+		return rating;
 	}
 
-	public void setRatings(int ratings) {
-		this.ratings = ratings;
+	public void setRating(int rating) {
+		this.rating = rating;
 	}
 
 	public String getMovieId() {
